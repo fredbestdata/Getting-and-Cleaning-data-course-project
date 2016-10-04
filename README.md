@@ -10,37 +10,21 @@ The following items are included in this repository:
 
 # How do the scripts work and how are they connected?
 The following scripts are used in this course project with the following description:
-- activity_labels.txt
+- activity_labels.txt : This file includes the 6 different activities that are done by the test persons.
 
-This file includes the 6 different activities that are done by the test persons.
-
-- features.txt
-
-This file includes all the different features that are tested for every X-, Y-, and Z
+- features.txt : This file includes all the different features that are tested for every X-, Y-, and Z
 
 For the test set there are the following files:
-- subject_test.txt
+- subject_test.txt : This file shows the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-This file shows the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+- X_test.txt : The big dataset
 
-- X_test.txt
-
-The big dataset
-
-- y_test.txt
-
-The activity labels
+- y_test.txt : The activity labels
 
 For the train test there are the following files:
 
-- subject_train.txt
+- subject_train.txt : This file shows the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-This file shows the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+- X_train.txt : The other big dataset
 
-- X_train.txt
-
-The other big dataset
-
-- y_train.txt
-
-The acitivty labels
+- y_train.txt : The acitivty labels
