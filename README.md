@@ -28,3 +28,5 @@ For the train test there are the following files:
 - X_train.txt : The other big dataset
 
 - y_train.txt : The acitivty labels
+
+The scripts are connected because the X_Test and X_Train file contain the big data files. The features.txt file are the headers. The subject_text, subject_train, y_test and y_train include all the activities and subjects that are performed. They form the 2 first columns of the big data set.
