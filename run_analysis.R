@@ -50,4 +50,4 @@ meanstddata$Activity[meanstddata$Activity == 6] <- "LAYING"
 final_data <- aggregate(. ~Subject + Activity, meanstddata, mean)
 
 #Create a second, independent tidy data set 
-write.table(final_data, file = "tidydata.txt", sep = "")
+write.table(final_data, file = "tidydata.txt", sep = "", row.name = FALSE)
