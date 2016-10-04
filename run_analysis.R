@@ -46,9 +46,8 @@ meanstddata$Activity[meanstddata$Activity == 4] <- "SITTING"
 meanstddata$Activity[meanstddata$Activity == 5] <- "STANDING"
 meanstddata$Activity[meanstddata$Activity == 6] <- "LAYING"
 
-#Calculate the average of each variable for each activity and each subject and order it
+#Calculate the average of each variable for each activity and each subject
 final_data <- aggregate(. ~Subject + Activity, meanstddata, mean)
-final_data <- final_data[order(final_data$Subject,final_data$Activity),]
 
 #Create a second, independent tidy data set 
 write.table(final_data, file = "tidydata.txt", sep = "")
